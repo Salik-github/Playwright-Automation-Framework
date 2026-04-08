@@ -7,10 +7,10 @@ export const test = base.extend({
   //   await page.goto('https://practice.expandtesting.com/inputs');
   //   await use(page);
   // },
-  // BasePage: async ({ page }, use) => {
-  //   const BasePage = new BasePage(page)
-  //   await use(loginpage)
-  // },
+  BasePage: async ({ page }, use) => {
+    const BasePage = new BasePage(page)
+    await use(loginpage)
+  },
   loginpage: async ({ page }, use) => {
     const loginpage = new LoginPage(page)
     await use(loginpage)
