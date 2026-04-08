@@ -1,0 +1,8 @@
+node_modules/
+test-results/
+allure-results/
+alllure-reports/
+playwright-report/
+.env
+screenshots/
+*.env.local

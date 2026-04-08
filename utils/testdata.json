@@ -1,0 +1,28 @@
+{
+    "validData": [
+        {
+            "username":"test",
+            "password":"test"
+        },
+        {
+            "username":"test2",
+            "password":"test"
+        },
+        {
+            "username":"test3",
+            "password":"test"
+        },
+        {
+            "username":"test4",
+            "password":"test"
+        },
+        {
+            "username":"test7",
+            "password":"test"
+        },
+        {
+            "username":"test5",
+            "password":"test"
+        }
+    ]
+}
